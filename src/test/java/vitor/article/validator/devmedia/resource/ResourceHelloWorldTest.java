@@ -1,11 +1,10 @@
 package vitor.article.validator.devmedia.resource;
 
-import static io.restassured.RestAssured.get;
+import static com.jayway.restassured.RestAssured.get;
 import static org.hamcrest.Matchers.equalTo;
 
 import org.junit.jupiter.api.Test;
-
-import io.restassured.http.ContentType;
+import com.jayway.restassured.http.ContentType;
 
 /**
  * @author Vitor Lima
