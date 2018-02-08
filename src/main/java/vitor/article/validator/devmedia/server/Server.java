@@ -23,8 +23,10 @@ public class Server {
 		URI uri = URI.create("http://localhost:8080");
 		HttpServer server = GrizzlyHttpServerFactory.createHttpServer(uri, config);
 		System.out.println("Server Running");
-		System.in.read();
-		server.stop();
+		if(!(args[0].equals("test"))) {
+			System.in.read();
+			server.stop();
+			System.out.println("Stopped Server");
+		}	
 	}
-
 }
