@@ -1,4 +1,4 @@
-package vitor.article.validator.devmedia.resource;
+package vitor.article.validator.devmedia.server;
 
 import java.io.IOException;
 import java.net.URI;
